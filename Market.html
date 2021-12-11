@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Information</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+</head>
+<body>
+<nav>
+    <div class="Container">
+        <div class="NavLogo"><a href="index.html" title="Click to open."><img src="ZonnaLogo.png"></a></div>
+        <div class="Nav"><div class="MenuButton" title="Click to open.">MENU</div></div>
+    </div>
+</nav>
+<div class="NavMenu">
+    <p><a href="About.html" title="Click to open.">ABOUT</a></p>
+    <p><a href="Bookings.html" title="Click to open.">BOOKINGS</a></p>
+    <p><a href="Classes.html" title="Click to open.">CLASSES</a></p>
+</div>
+<script src="menuindex.js"></script>
+<div class="Container">
+<div style="float: left; width:30%;">
+    <h2>Follow us on social media!</h2>
+    <div style="display: flex;">
+        <div style="margin: 10px;">
+    <a href="https://www.facebook.com/" target="_blank" title="Click to open."><img src="facebook.jpg"></a>
+        </div>
+        <div style="margin: 10px;">
+            <a href="https://www.instagram.com/" target="_blank" title="Click to open."><img src="instagram.jpg"></a>
+        </div>
+        <div style="margin: 10px;">
+            <a href="https://twitter.com/" target="_blank" title="Click to open."><img src="twitter.jpg"></a>
+        </div>
+    </div>
+    <h3>Email us at <a href="https://www.gmail.com/" target="_blank" title="Click to open.">ZonnaAcresContact@gmail.com</a></h3>
+</div>
+<div class="contactcontainer">
+    <h2>Submit a Contact Request</h2>
+    <form action="action_page.php">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+        <label for="lname">Phone Number</label>
+        <input type="text" id="phone" name="phone" placeholder="Your phone number...">
+
+        <label for="country">Reason for contact</label>
+        <select id="country" name="country">
+            <option value="australia">Event Bookings</option>
+            <option value="canada">Lodging Bookings</option>
+            <option value="usa">Other</option>
+        </select>
+
+        <label for="subject">Additional Comments</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</div>
+</div>
+<div class="footer"><p style="text-align: center; color:#bebebe;">Copyright 2021</p></div>
+
+</body>
+</html>

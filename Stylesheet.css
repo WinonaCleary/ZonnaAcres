@@ -1,0 +1,419 @@
+html{
+    margin: 0px;
+    background-color: aliceblue;
+    height: 150%;
+    font-family: Lato, sans-serif;
+}
+
+nav{
+    background-color: #397249;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    margin: 0px;
+}
+p{
+    font-size: 16pt;
+}
+
+.Container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px;
+
+}
+
+.NavLogo{
+    padding-top: 10px;
+    margin: 0px;
+    padding-left: 18px;
+}
+
+.Nav{
+    padding-top: 20px;
+    margin: 0px;
+    margin-right: 3%;
+    padding-left: 18px;
+}
+
+.MenuButton{
+    height: 100%;
+    font-size: 16pt;
+    color: white;
+    padding: 6px;
+    max-width: 150px;
+    cursor: pointer;
+    margin-left: 10px;
+    alignment: center;
+    padding-top: -25px;
+}
+
+.NavMenu{
+    position: fixed;
+    top: 70px;
+    left: 0;
+    height: 200px;
+    width: 200px;
+    display: none;
+    background-color: #F6E4CC;
+    border-radius: 10px;
+    margin-left: 89%;
+    margin-right: 15%;
+    z-index: 1000;
+}
+
+
+.Splash{
+    width: 100%;
+    background-image: url("Splash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-flow: wrap;
+    margin: auto;
+    height: 300px;
+    justify-content: center;
+}
+
+.TileContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px;
+    flex-flow: wrap;
+
+}
+
+.TileContain{
+    width: 20%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    margin: 15px;
+    height: auto;
+    background-color: white;
+}
+
+.Tile{
+    padding: 5px;
+    background-color: white;
+}
+
+.TileHead{
+    background-color: #bbdeea;
+    font-size: 24pt;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+h1{
+    font-size: 34pt;
+    justify-content: center;
+    color: white;
+    padding-bottom: 0px;
+
+}
+
+h2{
+    font: 24 pt;
+    justify-content: center;
+    color: black;
+
+}
+
+a{
+    margin: 5px;
+    color: darkgreen;
+    text-decoration: none;
+}
+
+a:hover{
+    color: mediumseagreen;
+}
+
+.Container2{
+    display: flex;
+    width: 100%;
+    margin: 0px;
+
+}
+
+.Container3{
+    align-content: center;
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    position: center;
+}
+
+.Button{
+    background-color: #F6E4CC;
+    width: 300px;
+    height: auto;
+    padding: 2px;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30%;
+}
+
+.GreenContain {
+    background-color: #9CB770;
+    border: white 2px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 25px;
+    width: 70%;
+}
+
+.BlueContain {
+    background-color: #C7E1BA;
+    border: white 2px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 25px;
+    width: 30%;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+    width: 80%;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    color: black;
+    font-size: 20pt;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    background-color: #bbbbbb;
+    margin-bottom: 0px;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.footer{
+    width: 100%;
+    background-color: #397249;
+    position: fixed;
+    bottom: 0;
+    margin: 0px;
+    padding: 10px;
+}
+
+.SmallBlue{
+    background-color: #C7E1BA;
+    border: white 2px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 25px;
+    width: 20%;
+}
+
+#myImg,#myImg2,#myImg3,#myImg3,#myImg4 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover,#myImg2:hover,#myImg3:hover,#myImg4:hover {opacity: 0.7;}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+#caption,#caption2,#caption3,#caption4 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modal-content, #caption,#caption2,#caption3,#caption4 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+.close,.close2,.close3,.close4 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus,.close2:hover,
+.close2:focus,.close3:hover,
+.close3:focus,.close4:hover,
+.close4:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contactcontainer {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    float: right;
+    width: 60%;
+    margin:15px;
+}
+
+
+@media screen and (max-device-width: 700px){
+    .Container {
+        flex-flow: wrap;
+        width: 100%;
+    }
+    .Button{
+        margin-left: 20%;
+    }
+    .TileHead{
+        font-size: 14pt;
+    }
+    .TileContain {
+        width: 40%;
+    }
+
+    }
+
